@@ -53,7 +53,7 @@ def get_balance_key(player):
         return "player_two_money"
 
 def main(game, player):
-    dice = random.randint(1, 6)
+    dice = random.randint(1, 12)
     print(f"\n{player.upper()}'s turn. Rolled: {dice}")
 
     balance_key = get_balance_key(player)
