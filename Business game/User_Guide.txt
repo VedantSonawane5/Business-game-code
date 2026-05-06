@@ -1,0 +1,60 @@
+                                   User Guide of Vedant’s Business Game
+
+To use this game, you’ll need an editor like Mu Editor (since this game was created in Pycharm). Additionally, you’ll
+need some libraries, such as Random, Json, and Os.
+
+In this game, both players start with 100,000, and the bank has 50,000. You can change these values by editing lines 40,
+ 41, and 41.
+
+Step one: To start the game, press the run button. It will prompt you to enter the name of the log file. Here, the
+Python code will create a file named game2.json, which will contain the full game data. Make sure to name the file
+correctly like "game_one" which should not have points or any space.
+
+Step two: The game will then display a welcome message. Enter your name. This is a two-player business game.
+
+Enter Player one’s name:
+
+The game will prompt you again to enter Player one’s name.
+
+Enter Player one’s name: Vedant
+Enter Player two’s name: Samyak
+
+Step three: After entering the player names, the game will start and log to game2.json.
+
+                                                   ===== Turn 1 =====
+
+Vedant’s turn. Rolled: 2
+Your balance: 100000
+Give (g), take (t), skip (n):
+
+Here, if you enter “g”, it will give you money. If you enter “t”, it will take money from you. If you enter “n”, it will
+ skip the transaction.
+
+“Enter amount:” you can enter any amount, like 1500.
+
+If you enter “Give to Bank(b) or Player(p):”, you can enter any two letters. “p” means player two, and “b” means bank.
+
+For example, if you enter “Give to Bank(b) or Player(p):p”, it will give money to the player.
+
+If you enter “Give to Bank(b) or Player(p):b”, it will give money to the bank.
+
+The game status will show the current status of each player and the bank.
+
+Step Four: Then, it will show Player Two’s roll and all the rules of the game.
+
+Problems that can occur:
+
+- If the JSON file is not visible, go to another window like the home page. You can come back to the editor and the data
+ will be stored.
+- Don’t enter “.” points when you are entering the name of the log file. It can work, but the game_history_viewer.py
+can’t open it.
+- Don't enter both player name the same
+- Don’t add space when entering the log file name.
+
+About Game_history_viewer.py
+There’s another file named game_history_viewer.py from which we can view the data.
+To view the data, run that file and then you’ll see this prompt:
+
+—> Enter Name of Log File:
+
+Then, enter the file name, such as game_one, and you’ll see the history.

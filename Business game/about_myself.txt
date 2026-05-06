@@ -1,0 +1,12 @@
+Hi there! This game was created by Vedant Sonawane, a student at Orchid The International School in Manjri.
+I’m currently in Grade 8 and aspiring to become an AI engineer. I developed this code to ensure that we can play the
+game without any loss of money and to prevent cheating.
+
+I created this game on May 6, 2026, at 3:57 pm. It took me a significant amount of time to complete, but I managed to
+finish it.
+
+If you’re knowledgeable about creating Python files that can be converted into APK files, please send me an email on
+vs05082013@gmail.com. I’ve been trying to do this myself, but I’ve encountered numerous errors. If you have any ideas
+about how to modify or improve the game, please let me know.
+
+I’m also following this GitHub user ID: VedantSonawane5.
